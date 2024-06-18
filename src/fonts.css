@@ -13,8 +13,29 @@
 }
 
 @font-face {
+    font-family: 'Roman City';
+    src: url('/fonts/romancity/romancity_regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/fonts/oswald/Oswald-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Augent';
     src: url('/fonts/augent/Augent.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Editorial Old';
+    src: url('/fonts/editorial-old/ppeditorialold-regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
