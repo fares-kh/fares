@@ -1,27 +1,41 @@
+---
+import '../fonts.css';
+---
+
 <style>
     .nav-container {
-        display: flex;
-        justify-content: flex-end;
-        padding: 10px 20px;
+        border-bottom: 1px solid #cccccc;
     }
-    .links {
+    .list {
         list-style: none;
         display: flex;
-        justify-content: space-around;
+        margin: 1vw;
+        justify-content: space-between;
     }
     li {
         padding: 0 10px;
+        width: 100px;
+    }
+    ul div {
+        display: flex;
+        text-align: center;
     }
     a {
         text-decoration: none;
+        color: #ffffff;
+        font-family: 'Suisse Intl';
     }
 </style>
 
 <nav class="nav-container">
-    <ul class="links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about-me">About Me</a></li>
-        <li><a href="mailto:your-email@example.com">Email</a></li>
-        <li><a href="/social-media">Social Media</a></li>
+    <ul class="list">
+        <div>
+            <li><a href="/">home</a></li>
+        </div>
+        <div>
+            <li><a href="/about-me">about</a></li>
+            <li><a href="mailto:your-email@example.com">email</a></li>
+            <li><a href="/social-media">social</a></li>
+        </div>
     </ul>
 </nav>
