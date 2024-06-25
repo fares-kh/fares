@@ -53,3 +53,59 @@
     font-weight: 400;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'ZT Chintzy';
+    src: url('/fonts/ztchintzy/ZTChintzy-Heavy.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZT Chintzy';
+    src: url('/fonts/ztchintzy/ZTChintzy-HeavyItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ZT Chintzy';
+    src: url('/fonts/ztchintzy/ZTChintzy-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZT Chintzy';
+    src: url('/fonts/ztchintzy/ZTChintzy-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('/fonts/ginto/ABCGintoNormal-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('/fonts/ginto/ABCGintoNormal-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('/fonts/monumentgrotesk/ABCMonumentGrotesk-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oracle';
+    src: url('/fonts/oracle/ABCOracle-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}

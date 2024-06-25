@@ -3,15 +3,39 @@ import '../fonts.css';
 ---
 
 <style>
-    .name_section {
-        font-family: "Oswald";
-        display: flex;
-        justify-content: center;
+    .intro-container {
+        /* display: flex;
+        flex-direction: column;
         align-items: center;
+        margin: 7vw auto; */
+    }
+
+    .name_section {
+        font-family: 'Ginto';
         /* height: 80vh; */
-        transform: translate(0.0000%, 0px) scale(0.5003, 1.1003);
-        color: #4192B4;
+        /* transform: translate(0.0000%, 0px) scale(0.5003, 1.1003); */
+        /* color: #78a44c; */
+        color: #cccccc;
+        font-weight: 400;
         margin: 0;
+
+        /* .second {
+            font-style: italic;
+            color: #4192B4;
+            font-size: 1.1em;
+        } */
+    }
+
+    .description {
+        font-family: 'Suisse Intl', Helvetica, sans-serif;
+        font-size: 12px;
+        width: 600px;
+        color: #cccccc;
+        margin: 1vw;
+    }
+
+    .location {
+        margin-top: 32px;
     }
 
     .name_top {
@@ -20,22 +44,25 @@ import '../fonts.css';
     }
 
     h1 {
-        font-weight: inherit;
-        /* margin: 0; */
+        font-weight: 500;
+        margin: 1vw;
         /* margin-left: 24px; */
-        font-size: 9em;
+        letter-spacing: -4px;
+        font-size: 4em;
+        .dot {
+            color: #3581b8;
+        }
     }
 </style>
-  
-<!-- <div class="name_section">
-    <div class="name_top">
-        <h1>Fares</h1>
-    </div>
-    <div class="name_bottom">
-        <h1>Khaled Abdou</h1>
-    </div>
-</div -->
 
-<div class="name_section">
-        <h1>FARES KHALED ABDOU</h1>
+<div class="intro-container">
+    <div class="name_section">
+        <h1>FARES ABDOU<span class="dot">.</span></h1>
+    </div>
+    <div class="description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo libero ac lacus imperdiet, in rutrum sapien varius. Aenean vehicula ipsum sit amet lectus cursus fermentum. Sed tincidunt orci quis enim feugiat, sit amet congue justo gravida. Nullam lacus odio, ullamcorper nec suscipit ac, convallis ac ligula. In pellentesque tincidunt dui, sodales feugiat dolor dapibus id. Ut feugiat imperdiet aliquet. Praesent ac ultricies risus, nec pharetra lectus. Cras sit amet scelerisque massa.</p>
+        <div class="location">
+            <span>MANCHESTER | LONDON</span>
+        </div>
+    </div>
 </div
