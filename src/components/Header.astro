@@ -3,39 +3,27 @@ import '../fonts.css';
 ---
 
 <style>
-    .nav-container {
-        /* border-bottom: 1px solid #cccccc; */
+    .name_section {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        column-gap: 10px;
+
+        h1 {
+        font-weight: 500;
+        margin: 1vw 0;
+        font-family: 'Ginto';
+        color: #cccccc;
+        font-weight: 400;
+        font-size: 2em;
+        .dot {
+            color: #3581b8;
+        }
     }
-    .list {
-        list-style: none;
-        display: flex;
-        margin: 1.5vw;
-        justify-content: space-between;
-    }
-    li {
-        padding: 0 10px;
-        /* width: 100px; */
-    }
-    ul div {
-        display: flex;
-        text-align: center;
-    }
-    a {
-        text-decoration: none;
-        color: #78a44c;
-        font-family: 'Suisse Intl', Helvetica, sans-serif;
     }
 </style>
 
-<nav class="nav-container">
-    <ul class="list">
-        <div>
-            <li><a href="/">F</a></li>
-        </div>
-        <div>
-            <!-- <li><a href="/about-me">about</a></li>
-            <li><a href="mailto:your-email@example.com">email</a></li>
-            <li><a href="/social-media">social</a></li> -->
-        </div>
-    </ul>
-</nav>
+<div class="name_section">
+    <h1>FARES ABDOU<span class="dot">.</span></h1>
+    <h1>SOFTWARE ENG.</h1>
+    <h1>MANCHESTER</h1>
+</div>
