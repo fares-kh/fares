@@ -10,11 +10,19 @@ import '../fonts.css';
     }
 
     .description {
-        font-family: 'Suisse Intl', Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        font-family: 'Monument Grotesk', Helvetica, sans-serif;
         line-height: 1.5em;
-        font-size: 12px;
+        font-size: 16px;
         width: 600px;
         color: #cccccc;
+        .subheader {
+            color: #a4d8f4;
+            font-family: 'Ginto', Helvetica, sans-serif;
+            font-size: 12px;
+        }
     }
 
     .experiences {
@@ -30,10 +38,11 @@ import '../fonts.css';
 <div class="grid-container">
     <div class="intro-section">
         <div class="description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo libero ac lacus imperdiet, in rutrum sapien varius. Aenean vehicula ipsum sit amet lectus cursus fermentum. Sed tincidunt orci quis enim feugiat, sit amet congue justo gravida. Nullam lacus odio, ullamcorper nec suscipit ac, convallis ac ligula. In pellentesque tincidunt dui, sodales feugiat dolor dapibus id. Ut feugiat imperdiet aliquet. Praesent ac ultricies risus, nec pharetra lectus. Cras sit amet scelerisque massa.</p>
+            <p class="subheader">PROFILE</p>
+            <p>Accomplished Software Engineer with a robust background in the e-commerce and sports industry. I specialise in creating dynamic, scalable web applications using React, GraphQL, and TypeScript as well as HTML, Next.js, Java, JavaScript, and Python, delivering solutions from concept to deployment.</p>
         </div>
     </div>
-    <div class="description" style="color: white;">
-        Placeholder
+    <div class="description">
+        <p class="subheader">BACKGROUND</p>
     </div>
 </div>
