@@ -5,28 +5,31 @@ import '../fonts.css';
 <style>
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr;
         column-gap: 10px;
-    }
+        margin: 1vw 0;
+        p {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            font-family: 'Oracle', Helvetica, sans-serif;
+            line-height: 125%;
+            font-size: 16px;
+            color: #cccccc;
+        }
 
-    .description {
-        display: flex;
-        flex-direction: column;
-        gap: 0.75rem;
-        font-family: 'Monument Grotesk', Helvetica, sans-serif;
-        line-height: 1.5em;
-        font-size: 16px;
-        width: 600px;
-        color: #cccccc;
-        .subheader {
+        h2 {
             color: #a4d8f4;
             font-family: 'Ginto', Helvetica, sans-serif;
             font-size: 12px;
+            margin: 0 0 12px 0;
         }
     }
-
-    .experiences {
-        margin: 16px 0;
+    .experiences-section {
+        div {
+            display: grid;
+            gap: 2.5em;
+        }
     }
 
     .name_top {
@@ -37,12 +40,21 @@ import '../fonts.css';
 
 <div class="grid-container">
     <div class="intro-section">
-        <div class="description">
-            <p class="subheader">PROFILE</p>
-            <p>Accomplished Software Engineer with a robust background in the e-commerce and sports industry. I specialise in creating dynamic, scalable web applications using React, GraphQL, and TypeScript as well as HTML, Next.js, Java, JavaScript, and Python, delivering solutions from concept to deployment.</p>
+        <h2 class="subheader">PROFILE</h2>
+        <p>Accomplished Software Engineer with a robust background in the e-commerce and sports industry. I specialise in creating dynamic, scalable web applications using React, GraphQL, and TypeScript as well as HTML, Next.js, Java, JavaScript, and Python, delivering solutions from concept to deployment.</p>
+    </div>
+    <div class="experiences-section">
+        <h2 class="subheader">BACKGROUND</h2>
+        <div>
+            <p>The Hut Group<br>Sep '21 – Present</p>
+            <p>Dartford FC<br>Sep '17 – Aug '21</p>
+            <p>Pearl Lemon Official<br>May '20 – Oct '20</p>
         </div>
     </div>
-    <div class="description">
-        <p class="subheader">BACKGROUND</p>
+    <div class="biography-section">
+        <h2 class="subheader">BIOGRAPHY</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
     </div>
 </div>
