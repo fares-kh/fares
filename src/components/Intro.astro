@@ -1,5 +1,6 @@
 ---
 import '../fonts.css';
+import Experiences from '../components/Experiences.jsx';
 ---
 
 <style>
@@ -15,7 +16,8 @@ import '../fonts.css';
         
         p {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            justify-content: space-between;
             gap: 0.75rem;
             font-family: 'Oracle', Helvetica, sans-serif;
             line-height: 125%;
@@ -30,12 +32,12 @@ import '../fonts.css';
             margin: 0 0 12px 0;
         }
     }
-    .experiences-section {
+    /* .experiences-section {
         div {
             display: grid;
             gap: 2.5em;
         }
-    }
+    } */
 
     .name_top {
         margin-left: 24px;
@@ -48,14 +50,15 @@ import '../fonts.css';
         <h2 class="subheader">PROFILE</h2>
         <p>Accomplished Software Engineer with a robust background in the e-commerce and sports industry. I specialise in creating dynamic, scalable web applications using React, GraphQL, and TypeScript as well as HTML, Next.js, Java, JavaScript, and Python, delivering solutions from concept to deployment.</p>
     </div>
-    <div class="experiences-section">
+    <!-- <div class="experiences-section">
         <h2 class="subheader">BACKGROUND</h2>
         <div>
             <p>The Hut Group<br>Sep '21 – Present</p>
             <p>Dartford FC<br>Sep '17 – Aug '21</p>
             <p>Pearl Lemon Official<br>May '20 – Oct '20</p>
         </div>
-    </div>
+    </div> -->
+    <Experiences client:load/>
     <div class="biography-section">
         <h2 class="subheader">BIOGRAPHY</h2>
         <div>
