@@ -20,6 +20,7 @@ const Experience = styled.p`
     font-family: 'Oracle', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 125%;
+    padding-bottom: 1vw;
     cursor: pointer;
     transition: color 0.2s ease;
 
@@ -41,7 +42,7 @@ const Experiences = () => {
     };
 
     return (
-        <div>
+        <div style={{paddingBottom: '1vw'}}>
             <Subheader>BACKGROUND</Subheader>
             <ExperiencesSection>
                 {experiences.map((exp, index) => (

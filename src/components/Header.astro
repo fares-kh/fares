@@ -4,13 +4,15 @@ import Intro from './Intro.astro';
 ---
 
 <style>
-    .name_section {
+    .left-section {
         display: grid;
-        grid-template-columns: 1fr 3fr;
-        column-gap: 10px;
 
-        .left-col {
-            border-right: 1px solid #ffffff;
+        .col-1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+            border-right: 1px solid #cccccc;
         }
 
         h1 {
@@ -24,8 +26,8 @@ import Intro from './Intro.astro';
     }
 </style>
 
-<div class="name_section">
-    <div class="left-col">
+<div class="left-section">
+    <div class="col-1">
         <h1>Fares Abdou</h1>
         <Intro />
     </div>
