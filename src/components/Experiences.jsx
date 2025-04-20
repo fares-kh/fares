@@ -8,19 +8,11 @@ const ExperiencesSection = styled.div`
     gap: 2.5rem;
 `;
 
-const Subheader = styled.h2`
-    color: #a4d8f4;
-    font-family: 'Ginto', Helvetica, sans-serif;
-    font-size: 12px;
-    margin: 0 0 12px 0;
-`;
-
 const Experience = styled.p`
     color: #cccccc;
     font-family: 'Oracle', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 125%;
-    padding-bottom: 1vw;
     cursor: pointer;
     transition: color 0.2s ease;
 
@@ -42,9 +34,8 @@ const Experiences = () => {
     };
 
     return (
-        <div style={{paddingBottom: '1vw'}}>
-            <Subheader>BACKGROUND</Subheader>
-            <ExperiencesSection>
+        <ExperiencesSection class="experiences section">
+            <h2 class="subheader">BACKGROUND</h2>
                 {experiences.map((exp, index) => (
                     <Experience key={index} onClick={() => handleClick(exp.company)} style={{ cursor: 'pointer' }}>
                         {exp.company}<br />
@@ -52,8 +43,7 @@ const Experiences = () => {
                         <ExpandArrow viewBox="0 0 24 24" style={{ fill: '#ffffff', width: '16px', height: '16px'}}/>
                     </Experience>
                 ))}
-            </ExperiencesSection>
-        </div>
+        </ExperiencesSection>
     );
 };
 
